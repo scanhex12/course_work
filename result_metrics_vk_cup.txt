@@ -819,4 +819,94 @@ Precision@8: 9.70991e-05
 Precision@9: 0.000150575
 =========================
 
+PageRank
+
+=========RESULTS=========
+MAP@1: 5.68016e-07
+MAP@10: 3.04153e-06
+MAP@11: 3.32518e-06
+MAP@12: 3.65256e-06
+MAP@13: 3.83381e-06
+MAP@14: 4.1665e-06
+MAP@15: 4.36009e-06
+MAP@16: 4.55113e-06
+MAP@17: 4.75191e-06
+MAP@18: 4.9612e-06
+MAP@19: 5.01293e-06
+MAP@2: 1.24072e-06
+MAP@20: 5.25457e-06
+MAP@3: 1.65226e-06
+MAP@4: 2.07472e-06
+MAP@5: 2.29981e-06
+MAP@6: 2.45755e-06
+MAP@7: 2.5823e-06
+MAP@8: 2.846e-06
+MAP@9: 2.87856e-06
+MRR: 1.86839e-05
+NDCG: 0.000212526
+Precision@1: 5.68016e-07
+Precision@10: 1.12911e-05
+Precision@11: 1.36957e-05
+Precision@12: 1.66183e-05
+Precision@13: 1.84804e-05
+Precision@14: 2.28825e-05
+Precision@15: 2.49999e-05
+Precision@16: 2.68453e-05
+Precision@17: 2.95246e-05
+Precision@18: 3.24943e-05
+Precision@19: 3.2906e-05
+Precision@2: 1.91342e-06
+Precision@20: 3.74123e-05
+Precision@3: 3.14805e-06
+Precision@4: 4.8379e-06
+Precision@5: 5.90155e-06
+Precision@6: 6.71236e-06
+Precision@7: 7.5045e-06
+Precision@8: 9.5883e-06
+Precision@9: 9.80512e-06
+=========================
+=========RESULTS=========
+MAP@1: 1.19626e-07
+MAP@10: 2.27881e-06
+MAP@11: 2.27881e-06
+MAP@12: 2.27881e-06
+MAP@13: 2.27881e-06
+MAP@14: 2.27881e-06
+MAP@15: 2.27881e-06
+MAP@16: 2.27881e-06
+MAP@17: 2.27881e-06
+MAP@18: 2.27881e-06
+MAP@19: 2.27881e-06
+MAP@2: 5.53343e-07
+MAP@20: 2.27881e-06
+MAP@3: 1.27324e-06
+MAP@4: 1.70894e-06
+MAP@5: 1.81355e-06
+MAP@6: 2.04274e-06
+MAP@7: 2.07596e-06
+MAP@8: 2.09113e-06
+MAP@9: 2.24618e-06
+MRR: 5.1233e-05
+NDCG: 7.53273e-05
+Precision@1: 1.19626e-07
+Precision@10: 8.8454e-06
+Precision@11: 8.8454e-06
+Precision@12: 8.8454e-06
+Precision@13: 8.8454e-06
+Precision@14: 8.8454e-06
+Precision@15: 8.8454e-06
+Precision@16: 8.8454e-06
+Precision@17: 8.8454e-06
+Precision@18: 8.8454e-06
+Precision@19: 8.8454e-06
+Precision@2: 9.8706e-07
+Precision@20: 8.8454e-06
+Precision@3: 3.13977e-06
+Precision@4: 4.88257e-06
+Precision@5: 5.40466e-06
+Precision@6: 6.76969e-06
+Precision@7: 7.00222e-06
+Precision@8: 7.12362e-06
+Precision@9: 8.51909e-06
+=========================
 
