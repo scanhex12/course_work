@@ -2,6 +2,7 @@
 #include <random>
 #include <algorithm>
 #include <unordered_set>
+#include <iostream>
 
 class FastKNN {
 public:
@@ -46,13 +47,14 @@ public:
             size_t mid_position = std::lower_bound(sorted_values_projections_[ind_projection].begin(),
                                                    sorted_values_projections_[ind_projection].end(),
                                                    unsorted_values_projections_[ind_projection][request_ind]) -
-                                                           sorted_values_projections_[ind_projection].begin();
+                                  sorted_values_projections_[ind_projection].begin();
 
             size_t left_position = std::max(0, static_cast<int>(mid_position) - (static_cast<int>(k) / 2));
-            size_t right_position = std::min(unsorted_values_projections_[ind_projection].size(), left_position + k + 1);
+            size_t right_position = std::min(unsorted_values_projections_[ind_projection].size(),
+                                             left_position + k + 1);
             for (size_t pos = left_position; pos < right_position; ++pos) {
                 if (!blocked_candidates.count(sorted_projections_[ind_projection][pos].second) &&
-                sorted_projections_[ind_projection][pos].second != request_ind) {
+                    sorted_projections_[ind_projection][pos].second != request_ind) {
                     candidates.insert(sorted_projections_[ind_projection][pos].second);
                 }
             }
