@@ -83,3 +83,6 @@ Baseline - word2vec
 
 SHAN, статья: https://www.ijcai.org/proceedings/2018/0546.pdf
 
+## Week 7+
+
+Дописать (произошло очень много чего)
