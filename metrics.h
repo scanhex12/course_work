@@ -16,7 +16,7 @@ namespace metrics {
                 score += hints / (i + 1.0);
             }
         }
-        return score / (0.0 + target.size());
+        return score / (0.0 + k);
     }
 
     double MAPK(const std::vector <std::vector<size_t>> &predictions,
@@ -103,7 +103,7 @@ namespace metrics {
         double total = 0, score = 0;
         for (size_t i = 0; i < std::min(predictions.size(), k); ++i) {
             if (target_set.count(predictions[i]) && !used.count(predictions[i])) {
-                score += 1.0 / (target.size() + 0.0);
+                score += 1.0 / (k + 0.0);
             }
         }
         return score;
